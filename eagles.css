@@ -1,0 +1,239 @@
+/* HOME PAGE */
+html, body {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 940px; 
+  padding: 0 10px;
+}
+
+.header {
+  background: url(https://i.imgur.com/guuGMh5.jpg) no-repeat center center; 
+  background-size: auto;
+  height: 800px;
+  text-align: center; 
+}
+
+.header .container {
+  position: relative;
+  top: 200px;
+}
+
+.header h1 {
+  color: black;
+  text-shadow: 0 0 80px #00FF00;
+  line-height: 100px; 
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 80px;
+  text-transform: uppercase; 
+}
+
+@media (min-width:850px) {
+  .header h1 {
+    font-size: 120px;
+  }
+}
+
+.header p {
+  color: white;
+  font-weight: 500;
+  text-shadow: 0 0 80px #00FF00;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-bottom: 40px;
+  margin-top: 0;
+  text-transform: uppercase; 
+}
+
+.btn {
+  color: #fff;
+  background: #000;
+  padding: 10px 40px;
+  text-decoration: none; 
+  transition: background .5s; 
+}
+
+.nav { 
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+.objective h2 {
+  margin: 100px auto;
+  margin-bottom: 400px;
+  text-align: right;
+
+}
+.main .container {
+  margin: 100px auto;
+  margin-bottom: 400px;
+
+  
+}
+
+.jumbotron h2 {
+  color: #fff;
+  text-align: right;
+}
+
+.jumbotron p {
+  color: #fff; 
+  text-align: right; 
+}
+
+
+.footer { 
+  background: #000;
+  height: 60px; 
+  width: 100%;
+}
+
+
+
+
+/* TABLE */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+}
+th {
+  background-color: #66b266;
+}
+td {
+  background-color: #cce5cc;
+}
+
+thead th {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+}
+
+/* FOLES VS WENTZ PAGE */
+.header2 {
+  background: url(https://i.imgur.com/pcPmy3M.jpg) no-repeat top center;
+  background-size: 1700px;
+  width: 100%;
+  height: 800px;
+}
+
+.linkBar {
+  background: #000;
+  width: 100%;
+  height: 40px;
+}
+
+.spoiler {
+  filter: blur(20px);
+  transition-property: -webkit-filter;
+  transition-duration: .4s;  
+}
+
+.spoiler:hover, .spoiler:focus {
+  filter: blur(0px);
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform .2s; /* Animation */
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+/* RUSHING ATTACK */
+.nav3 {
+  background: #000;
+  height: 10px; 
+  width: 100%;
+  margin: 0;
+}
+.nav4 {
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+.header3 {
+  background: url(https://j.gifs.com/KZK0Wn.gif) no-repeat center center;
+  background-size: 1700px;
+  width: 100%;
+  height: 800px;
+  text-align: center; 
+}
+.blackborder {
+  background: #000;
+  height: 80px; 
+  width: 100%;
+}
+.grayBorder {
+  background: #d6d6c2;
+  height: 3px;
+  width: 100%;
+}
+
+/* DEFENSE */
+.gif {
+  background: url(https://j.gifs.com/MwQGlR.gif) no-repeat center center;
+  background-size: 1700px;
+  width: 100%;
+  height: 800px;
+  text-align: center; 
+}
+.eagle {
+  background: url(https://i.imgur.com/CVlGnYu.jpg) no-repeat center center;
+  background-size: 1700px;
+  width: 100%;
+  height: 800px;
+  text-align: center; 
+}
+
+.conclusionImage {
+  background: url(https://i.imgur.com/cil5g4I.jpg) no-repeat center center;
+  background-size: 1700px;
+  width: 100%;
+  height: 800px; 
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 8px;
+}
+

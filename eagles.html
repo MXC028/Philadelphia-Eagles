@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,100' rel='stylesheet' type='text/css'>
+	<link href="eagles.css" type="text/css" rel="stylesheet">
+	<script src="eagles.js" type="text/javascript"></script>
+  </head>
+  <body style="background: #d6d6c2;">
+    <div class="header">
+      <div class="container">
+        <h1>Eagles Analyzed</h1>
+        
+        <a class="btn" href="#Objective"><font size="5">Learn More</font></a>
+      </div>
+    </div>
+
+    <div class="linkBar" style="text-align: center; border-color: #000;">
+          <a href="eagles.html" style="text-decoration: none;"><font color="white" size="6"><strong>Home</strong></font></a>
+          <a href="eagles.html" style="text-decoration: none;"><font color="green" size="6">||</font></a>
+          <a href="eaglesPage2.html" style="text-decoration: none;"><font color="white" size="6"><strong>Foles vs Wentz</strong></font></a>
+          <a href="eagles.html" style="text-decoration: none;"><font color="green" size="6"><strong>||</strong></font></a>
+          <a href="eaglesPage3.html" style="text-decoration: none;"><font color="white" size="6"><strong>Rushing Attack</strong></font></a>
+          <a href="eagles.html" style="text-decoration: none;"><font color="green" size="6"><strong>||</strong></font></a>
+          <a href="eaglesPage4.html" style="text-decoration: none;"><font color="white" size="6"><strong>Defense</strong></font></a>
+          <a href="eagles.html" style="text-decoration: none;"><font color="green" size="6"><strong>||</strong></font></a>
+          <a href="conclusion.html" style="text-decoration: none;"><font color="white" size="6"><strong>Conclusion</strong></font></a>
+          <a href="eagles.html" style="text-decoration: none;"><font color="green" size="6"><strong>||</strong></font></a>
+          <a href="about.html" style="text-decoration: none;"><font color="white" size="6"><strong>About</strong></font></a>
+    </div>
+    <div>
+      <h2><center><font size="11"><strong><a name="Objective">Objective</a></strong></font></center></h2>
+      <p><center><font size ="6">The Philadelphia Eagles had one of their best seasons in 2017 finishing with a 13-3 regular season record and a superbowl win. In the 2018 season the Eagles finished 9-7. We are going to analyze the data to see what went wrong.</font></center></p>
+    </div>
+
+
+    <div class="main">
+      <div class="container">
+        <h2>Stats (2017 vs 2018 Comparison)</h2>
+        <hr />
+        Choose Position:
+        <select id="select1" name="select1" onchange="updateStats()">
+          <option value=""></option>
+          <option value="QB">QB</option>
+          <option value="RB">RB</option>
+          <option value="WR">WR</option>
+          
+        </select>
+        <div id="stats">
+    	</div>
+      </div>
+    </div>
+<section style="width: 100%; padding: 20px 15px; background-color: #d6d6c2; overflow:auto; margin-left: auto; margin-right: auto; display: block; background-color: #d6d6c2; border-left: none; border-right: none; padding-top: 10px; max-width: 1170px;">
+  <p style="text-align: center; font-size: 15px;">advertisement</p>
+     <article class="zoom" style="width:250px; border: solid 0px #000; margin-bottom: 10px; overflow:auto; float: left; margin-left: auto; margin-right: auto; padding-right: 15px; display: block; border-right: solid;">
+      <img src="https://i.imgur.com/sDW1cX2.jpg" alt="futuristic aircraft" style="width: 220px; height: 120px; padding-right: 5px;">
+      <p style="padding: 0; margin:0; font-size: 14px;"><strong><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none;">World's largest aircraft completes first test flight and you won't believe what we learned!</a></strong></p>
+ </article>
+   <!-- Comment: the second article -->
+      <article class="zoom" style="width:250px; margin-bottom: 10px; overflow:auto; float: left; margin-left: auto; margin-right: auto; padding-right: 30px; display: block; padding-left: 30px; padding-right: 15px; border-right: solid;">
+      <img src="https://i.imgur.com/EjTYRFc.jpg" alt="Dolly" style="width: 220px; height: 120px; padding-right: 5px;">
+      <p style="padding: 0; margin:0; font-size: 14px;"><strong><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none;">On the road with Dolly Parton and what she doesn't want you to know about her!</a></strong></p>
+   </article>
+   <!-- Comment: the third article -->
+   <article class="zoom" style="width:250px; overflow:auto; float: left; margin-left: auto; margin-right: auto; display: block; padding-left: 30px;">
+      <img src="https://i.imgur.com/rrS1ynK.jpg" alt="Mini in the year 2120" style="width:220px; height: 120px; padding-right: 5px;">
+      <p style="padding: 0; margin:0; font-size: 15px;"><strong><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" style="text-decoration: none;">This Mini might drive you in 100 years</a></strong></p>
+   </article>
+  </section>
+
+  <div style="background-color: #000; height: 60px; width: 100%;">
+    <p style="color: #fff; text-align: center; padding-top: 8px;">One Lincoln Financial Field Way <br> Philadelphia, PA 19148</p>
+  </div>
+  </body>
+</html>
